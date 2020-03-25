@@ -39,11 +39,11 @@ export default function FetchData(){
 
                         
 
-              <Row className="text-center">
+              <Row className="bgFetch pb-5 text-center pt-5">
                   <Col md="12">
-                  <h3 className="text-center">Data Real time Indonesia</h3>
+                  <h2 className="text-center">#StaySaveIndonesia</h2>
                   </Col>
-                        <Col sm="4">
+                        <Col sm="4" >
                             <Card body style={{background:'#fcf7bb'}}>
                                 <CardTitle><h5>Total Kasus <b >{cases.total}</b> Orang</h5></CardTitle>
                                 <CardText>Penambahan : <b className="text-danger">{cases.new}</b></CardText>

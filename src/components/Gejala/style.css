@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
+.cardBg{
+    background-color: #ffb0cd;
+    border-radius: .4;
+}
+h3{
+    font-family: 'Baloo Da 2', cursive;
+}

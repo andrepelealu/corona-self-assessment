@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+h2{
+    font-family: 'Rubik', sans-serif;
+}
+.setBg{
+    background: url('../../assets/socialdistance.png');
+    box-shadow: inset 0px 0px 5px 0.3px #DBA632;
+}
+.bgContent{
+    background-color: aliceblue;
+    opacity: .8;
+}

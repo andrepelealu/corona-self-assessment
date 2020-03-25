@@ -1,4 +1,9 @@
 .warning{
     background-color: #f6d186;
 }
-*{}
+.bgFetch{
+    background: url('../../assets/cases.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+}

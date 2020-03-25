@@ -1,14 +1,16 @@
 import React from 'react'
 import {Row,Col,Container} from 'reactstrap'
 import YouTube from 'react-youtube-embed'
-
+import './style.css'
 export default function SocialDistance() {
 
     return (
-        <Container>
+        <Container fluid className="setBg">
+        <Container className="pt-5" >
         <Row>
-            <Col md="5">
-                <h3>Apa itu Social Distancing ?</h3>
+            <Col md="5" className="bgContent">
+                <h2>Apa itu </h2>
+                <h1><b>Social Distancing ?</b></h1>
                 <p>
                     Emm social distancing, pasti kalian udah pernah denger kan, tapi gmn sih maksutnya? <br/>
                     inget2 aja <b>LDR-an</b> mirip2 kok hehe .. <br/><br/>
@@ -23,9 +25,10 @@ export default function SocialDistance() {
                 </p>
             </Col>
             <Col md="7">
-                <YouTube id="oCXVNn3-uBk"/>
+                <YouTube className="front" id="oCXVNn3-uBk"/>
             </Col>
         </Row>
+        </Container>
         </Container>
     )
 }
