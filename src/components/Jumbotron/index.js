@@ -1,5 +1,6 @@
 import React from 'react'
-import {Jumbotron,Button, Row,Col} from 'reactstrap'
+import {Jumbotron,Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
 import './style.css'
 const HeroSection=()=>{
     return(
@@ -11,7 +12,8 @@ const HeroSection=()=>{
             batuk langsung panik, demam makin takut,<br/>
             Tapi wait ...<br/><br/>biar ga makin parnoan, 
             Coba deh kenalin dulu gejala nya .. <br/>
-            Kalo udah kenal tau gejala2 nya, baru deh coba self assessment disini
+            Kalo udah kenal tau gejala-gejala nya, <br/>
+            baru deh coba self assessment disini, biar makin yakin 
         </p>
         <hr/>
         <p className="child">
@@ -22,7 +24,7 @@ const HeroSection=()=>{
         </p>
       
         <p className="lead">
-        <Button color="primary">Coba Test Corona</Button>
+        <Link to="/test-corona"><Button color="primary">Coba Test Corona</Button></Link>
         </p>
     </Jumbotron>
     )

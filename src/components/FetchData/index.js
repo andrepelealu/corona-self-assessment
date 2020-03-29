@@ -6,9 +6,8 @@ export default function FetchData(){
     const [data, setData] = useState([])
     const [cases, setCases] = useState([])
     const [death, setDeath] = useState([]) 
-
     // const [dataLength, setDataLength]= useState(0)
-    console.log('here')
+    // console.log('here')
     useEffect(()=>{
         axios.get('https://covid-193.p.rapidapi.com/history',{
             headers:{
@@ -28,8 +27,8 @@ export default function FetchData(){
             },[]
         )
          
-          console.log("ini data: ",data)
-          console.log("Cases: ",cases)
+        //   console.log("ini data: ",data)
+        //   console.log("Cases: ",cases)
           const persentase= (num,total)=>{
             var a = num/total*100
             return a.toFixed(2)

@@ -1,22 +1,29 @@
 import React from 'react';
-import FetchData from './components/FetchData'
-import Herosection from './components/Jumbotron'
-import Navbar from './components/Navbar'
-import Social from './components/SocialDistancing'
-import Gejala from './components/Gejala'
 
+import Navbar from './components/Navbar'
+import ContainerComponent from './components/Container'
+import Result from './components/Result'
+import Assessment from './components/Assessment' 
+import {Route,Switch} from 'react-router-dom'
 import { Container } from 'reactstrap';
+
 
 function App() {
   return (
     <>
+    
     <Container fluid>
       <Navbar/>
-      <Herosection/>
-      <Gejala/>
-      <Social/>
-      <FetchData/>
+      <Switch>
+      <Route exact path="/" component={ContainerComponent}/>
+      
+      <Route exact path="/test-corona" component={Assessment}/>
+      <Route exact path="/hasil" component={Result}/>
+      
+
+      </Switch>
     </Container>
+    
     </>
   );
 }

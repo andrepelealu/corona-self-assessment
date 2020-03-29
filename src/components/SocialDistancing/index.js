@@ -13,14 +13,14 @@ export default function SocialDistance() {
                 <h1><b>Social Distancing ?</b></h1>
                 <p>
                     Emm social distancing, pasti kalian udah pernah denger kan, tapi gmn sih maksutnya? <br/>
-                    inget2 aja <b>LDR-an</b> mirip2 kok hehe .. <br/><br/>
-                    Kalo <b>LDR</b> kan kita jauh2an sama doi tuh ..<br/>
+                    inget-inget aja <b>LDR-an</b> mirip-mirip kok hehe .. <br/><br/>
+                    Kalo <b>LDR</b> kan kita jauh-jauh an sama doi tuh ..<br/>
                     nah, kalo Social distancing, hampir sama .. <br/>
-                    sama2 jauhan, bukan sama doi .. <br/>
+                    sama-sama jauhan, bukan sama doi .. <br/>
                     tapi, sama interaksi sosial di sekitar kita <br/><br/>
                     <li><b>hindari dulu kerumunan masa yang banyak dan padet</b></li>
                     <li><b>Jaga jarak dulu sama orang kalo lagi ditempat umum</b></li>
-                    <li><b>Gausah traveling2 dulu, karna kamu juga bisa kena meskipun ga kerasa</b></li>
+                    <li><b>Gausah traveling dulu, karna kamu juga bisa kena meskipun ga kerasa</b></li>
 
                 </p>
             </Col>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
 import {
   Collapse,
   Navbar,
@@ -21,17 +22,20 @@ const NavbarSection = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="#">Apa itu social distancing ?</NavLink>
+          <NavItem>
+              <Link to="/"><NavLink>Beranda</NavLink></Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Data Corona</NavLink>
+              <NavLink href="#social-distance">Apa itu social distancing ?</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Berita Corona</NavLink>
+              <Link to="#data"><NavLink>Data Corona</NavLink></Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Donasi</NavLink>
+              <Link to="test-corona"><NavLink>Self Assessment</NavLink></Link>
+            </NavItem>
+            <NavItem>
+              {/* <NavLink href="#">Donasi</NavLink> */}
             </NavItem>
           </Nav>
         </Collapse>
