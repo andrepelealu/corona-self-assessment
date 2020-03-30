@@ -77,7 +77,7 @@ export default function Result() {
               <li>kamu  <strong>{tiga}</strong> demam, batuk, pilek, dll .. (Dalam 14 hari terakhir)</li>
               <li><strong>{empat}</strong> berkunjung ke negara yang udah kena pandemi corona</li>
               <li> <strong>{lima}</strong> ngerawat atau kontak fisik sama suspect/pasien corona</li>
-              <li><strong>{enam}</strong> kontak sama temen yang dari luar negeri terus ngalamin gelaja corona</li>
+              <li><strong>{enam}</strong> kontak sama temen yang dari luar negeri terus ngalamin gejala corona</li>
           </ul>
           <h3>Jadi gimana nih ??</h3>
           {result(satu,dua,tiga,empat,lima,enam)}

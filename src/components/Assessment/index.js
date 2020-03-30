@@ -49,7 +49,7 @@ export default function Assessment(props) {
                 </Media>
                 <p>*Inget ya, ini bukan hasil akhir atau vonis akhir kamu kena Corona apa ngga<br/>
                 Tapi ini adalah beberapa indikator awal yang dipake sama pemerintah<br/>
-                Buat screening awal ODP(Orang Dalam Pengawasan).
+                Buat screening awal ODP(Orang Dalam Pemantauan).
                 </p>
             </Media>
     

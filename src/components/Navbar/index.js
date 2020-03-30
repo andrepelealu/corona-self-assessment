@@ -18,7 +18,7 @@ const NavbarSection = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Cek Corona</NavbarBrand>
+        <Link to="/"><NavbarBrand>Cek Corona</NavbarBrand></Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
